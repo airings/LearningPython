@@ -1,0 +1,41 @@
+print:
+    print "Is it greater?", 5>-2
+    print "if I am %d years old, and I live %s and it's %r" % (21, 'SH', true)
+    print '.' * 10
+    print "Cheese " + "Burger"
+    print """
+        There's something going on here.
+        With the three double-quotes.
+        We'll be able to type as much as we like.
+        Even 4 lines if we want, or 5, or 6.
+    """
+    print "\tI'm\n \\ a \\ cat."
+
+raw_input:
+    raw_input()
+    raw_input("How old are you? ")
+
+argv:
+    from sys import argv
+    script, first, second, third = argv
+
+open:
+    txt = open(filename)
+    txt.read()
+    txt.readline()
+    txt.seek(0)
+    txt = open(filename, 'w')
+    txt.truncate()
+    txt.write("\n")
+    txt.close()
+
+functions:
+    def fun(*args)
+    return 1+1
+
+source code:
+    github.com
+    launchpad.net
+    gitorious.org
+    sourceforge.net
+

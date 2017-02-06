@@ -1,0 +1,36 @@
+Send me e-mail: reuven@lerner.co.il
+
+Sequence: for loops work, in words, indexes, alices
+
+Strings
+    - Sequence
+    - Contains bytes
+    - Immutable (cannot be changed)
+
+Lists
+     - Sequence
+     - Contains anything at all
+     - Mutable (can be changed)
+    - can be sorted, can be modified 
+    - usually for many of the same type
+
+Tuples
+    - Sequence
+    - Contains anything at all
+    - Immutable (cannot be changed)
+    - usually for records of different types
+
+Dictionaries
+    - Always pairs (key, value)
+    - Key must be hashable (more or less == immutable)
+    - Value can be anything at all (list, tuple, dict, string, etc.)
+    - Keys are unique
+    - Lookup of key is O(1)
+    - Memory use is about 2-3x list
+    - Elements are ordered according to the hash function on the key
+
+Sets
+    - Same as dict keys, no values
+    - All elements are unique
+    - All elements are hashable
+    - Elements are ordered according to the hash function

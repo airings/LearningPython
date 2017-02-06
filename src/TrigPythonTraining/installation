@@ -1,0 +1,46 @@
+3.       If you don't already have it on your computer, please install Python 2.7.12  (2.7.10 and 2.7.11 are just fine).
+
+You can download and install it from the following location:
+
+- Python from http://python.org/
+
+
+
+If you don't have a favorite editor that works with Python, you can download PyCharm CE:
+
+- The PyCharmCE (free) IDE from  https://www.jetbrains.com/pycharm/download/
+
+
+
+If you prefer to use Emacs, vim, Visual Studio, Eclipse, or another editor that uses Python, that's just fine -- just make sure that you have already installed any Python-specific plugins.
+
+
+
+- If you can, then also install Jupyter notebook, by opening a CMD window (on MS Windows) and typing
+
+
+
+        c:\python27\scripts\pip install -U jupyter[notebook]
+
+
+
+If you're using a Unix/Linux or Mac, then you'll instead want to write:
+
+
+
+sudo pip install -U 'jupyter[notebook]'
+
+
+
+You can then run the notebook on Unix by typing
+
+
+         jupyter notebook
+
+
+
+and on Windows by typing
+
+
+
+        c:\python27\scripts\jupyter notebook

@@ -1,0 +1,28 @@
+- commit to give cheshbonit mas
+- treated as an employee
+
+options from a US LLC -- does it make a difference if there's a plan
+or not? 
+
+
+
+
+E-mail: reuven@lerner.co.il
+
+http://reuven.lerner.co.il/exercise-files.zip
+
+
+
+Data science + machine learning:
+- NumPy
+- SciPy
+- Pandas
+- Matplotlib
+- scikit-learn
+
+Web: Django, Flask
+
+*FREE* e-mail newsletters
+- Pycoders Weekly
+- Python Weekly
+- Import Python
